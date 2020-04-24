@@ -1,0 +1,71 @@
+{
+    "name": "craftcms/craft",
+    "description": "Craft CMS",
+    "keywords": [
+      "craft",
+      "cms",
+      "craftcms",
+      "project"
+    ],
+    "license": "MIT",
+    "homepage": "https://craftcms.com/",
+    "type": "project",
+    "support": {
+      "email": "support@craftcms.com",
+      "issues": "https://github.com/craftcms/cms/issues?state=open",
+      "forum": "https://craftcms.stackexchange.com/",
+      "source": "https://github.com/craftcms/cms",
+      "docs": "https://craftcms.com/docs",
+      "rss": "https://craftcms.com/changelog.rss"
+    },
+    "minimum-stability": "beta",
+    "require": {
+      "php": ">=7.0.0",
+      "craftcms/cms": "^3.3.0",
+      "craftcms/plugin-installer": "^1.5.0",
+      "yiisoft/yii2-swiftmailer": "^2.1.0",
+      "yiisoft/yii2-debug": "^2.0.10",
+      "vlucas/phpdotenv": "^2.4.0",
+      "guzzlehttp/guzzle": "^6.3.0",
+      "league/flysystem": "^1.0.35",
+      "mikehaertl/php-shellcommand": "^1.2.5",
+      "pixelandtonic/imagine": "^1.2.2.1",
+      "swiftmailer/swiftmailer": "~6.0",
+      "zendframework/zend-feed": "2.8.0",
+      "craftcms/redactor": "^2.1.6",
+      "dolphiq/redirect": "^1.0.23",
+      "dolphiq/sitemap": "^1.0.9",
+      "craftcms/aws-s3": "^1.0.8",
+      "born05/craft-assetusage": "^2.0.1",
+      "rias/craft-position-fieldtype": "^1.0.14",
+      "studioespresso/craft-dumper": "^2.0.0",
+      "mmikkel/cp-clearcache": "^1.0.2",
+      "ether/seo": "^3.3.0",
+      "nystudio107/craft-seomatic": "^3.1.45",
+      "verbb/super-table": "^2.1.16",
+      "craftcms/element-api": "^2.5.4",
+      "topshelfcraft/wordsmith": "^3.0.4",
+      "ether/logs": "^3.0.0",
+      "craftcms/feed-me": "^4.1.0",
+      "verbb/field-manager": "^2.1.0",
+      "superbig/craft-entry-instructions": "^1.0.4",
+      "solspace/craft-freeform": "^3.4.1",
+      "nystudio107/craft-cookies": "^1.1.11",
+      "olivierbon/craft-squeeze": "^1.1.2",
+      "nystudio107/craft-retour": "^3.1.27"
+    },
+    "config": {
+      "platform": {
+        "php": "7.0"
+      }
+    },
+    "scripts": {
+      "post-root-package-install": [
+        "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+      ]
+    },
+    "repositories": [],
+    "extra": {
+      "handle": "plugin-handle"
+    }
+  }
