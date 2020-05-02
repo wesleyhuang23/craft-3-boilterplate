@@ -21,7 +21,7 @@
     "minimum-stability": "beta",
     "require": {
       "php": ">=7.0.0",
-      "craftcms/cms": "^3.3.0",
+      "craftcms/cms": "3.4.17.1",
       "craftcms/plugin-installer": "^1.5.0",
       "yiisoft/yii2-swiftmailer": "^2.1.0",
       "yiisoft/yii2-debug": "^2.0.10",
@@ -30,7 +30,7 @@
       "league/flysystem": "^1.0.35",
       "mikehaertl/php-shellcommand": "^1.2.5",
       "pixelandtonic/imagine": "^1.2.2.1",
-      "swiftmailer/swiftmailer": "~6.0",
+      "swiftmailer/swiftmailer": "^6.0.0",
       "zendframework/zend-feed": "2.8.0",
       "craftcms/redactor": "^2.1.6",
       "dolphiq/redirect": "^1.0.23",
